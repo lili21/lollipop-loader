@@ -27,7 +27,7 @@
   },
   "scripts": {
     "start": "parcel example/index.html",
-    "deploy": "parcel build example/index.html -d docs",
+    "deploy": "parcel build example/index.html --public-url ./ -d docs",
     "build": "rollup --config rollup.config.js",
     "prepublish": "npm run build"
   },
