@@ -29,6 +29,10 @@
   "files": [
     "lib"
   ],
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/lili21/lollipop-loader.git"
+  },
   "peerDependencies": {
     "react": "^16.3.0",
     "react-dom": "^16.3.0"
