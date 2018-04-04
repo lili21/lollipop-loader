@@ -14,7 +14,7 @@ const scope = { Loading }
 const code = `
   // You can live-editing the size, dash and
   // color property
-  // <Loading size=36 dash=4 color="red" />
+  // <Loading size={36} dash={4} color="red" />
   <Loading />
 `
 const _LiveProvider = styled(LiveProvider)`
