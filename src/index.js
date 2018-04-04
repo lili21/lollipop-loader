@@ -4,7 +4,7 @@ import styled from 'styled-components'
 
 const Svg = styled.svg`
   stroke-linecap: round;
-  animation: lollipop-circle 1.5s ease infinite, lollipop-rotate 1.5s linear infinte;
+  animation: lollipop-circle 1.5s ease infinite, lollipop-rotate 1.5s linear infinite;
   @keyframes lollipop-rotate {
     0% {
       transform: rotate(0)
@@ -44,7 +44,7 @@ export default function Loading ({ size, dash, color }) {
   return (
     <div>
       <Svg width={size} height={size} size={size} dash={dash}>
-        <circle cx={size / 2} cy={size / 2} r={radius} fill="none" stroke={color} stroke-width={dash} />
+        <circle cx={size / 2} cy={size / 2} r={radius} fill="none" stroke={color} strokeWidth={dash} />
       </Svg>
     </div>
   )
